@@ -43,3 +43,7 @@
   font-size: 1.3rem;
   padding: 5px 40px;
 }
+.mainDH {
+  font-variant-caps: all-petite-caps;
+  font-weight: bold;
+}

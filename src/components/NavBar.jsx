@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { useContext } from "react";
-import { AuthContext } from "../App";
+import { AuthContext } from "../MainComponent";
 const NavBar = () => {
   const { setAutenticated } = useContext(AuthContext);
   return (
@@ -12,7 +12,7 @@ const NavBar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={logo} className="h-15" alt="Kavach Logo" />
-          <span className="self-center text-4xl uppercase font-semibold whitespace-nowrap dark:text-white">
+          <span className=" self-center text-3xl uppercase font-bold whitespace-nowrap dark:text-white">
             Kavach
           </span>
         </Link>

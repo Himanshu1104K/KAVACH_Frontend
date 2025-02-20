@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { AuthContext } from "../App";
+import { AuthContext } from "../MainComponent";
 
 const LoginPage = () => {
   const { userName, password, setAutenticated } = useContext(AuthContext);
